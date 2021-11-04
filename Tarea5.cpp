@@ -166,7 +166,7 @@ int main(void){
                 cout << "Digite el ID a eliminar: ";
                 cin >> dataRef2; cin.ignore();
                 if(veterinary.deleteById(dataRef2))
-                    cout << "Elemento elimindado satisfactoriamente :)" << endl;
+                    cout << "Elemento eliminado satisfactoriamente :)" << endl;
                 else 
                     cout << "El elemento no se eliminó, verifique si el registro está vacío o intente de nuevo." << endl;
                 break;
